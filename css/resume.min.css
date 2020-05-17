@@ -150,7 +150,7 @@ overflow: hidden;
 
 .w-100{
 	border-radius: 10px;
-	margin-left:-20px;
+	/* margin-left:-20px; */
 	padding: 1rem;
 	background-color: rgb(43, 43, 43);
 	box-shadow: inset 0px 0px 7px 3px rgba(21, 21, 21, 0.671);
@@ -159,6 +159,11 @@ overflow: hidden;
 
 .fa-ul{
 	color: #89C4F5;
+}
+
+#project-card-title{
+	padding-top: 5px;
+	font-weight: 500;
 }
 
 @media (min-width:992px) {
@@ -204,23 +209,25 @@ overflow: hidden;
 		text-align: center;
 		border-radius: 50px;
 		font-size: 1.05rem;
-		background-image: linear-gradient(rgba(255, 255, 255, 0.5) 28%, 
+		/* background-image: linear-gradient(rgba(255, 255, 255, 0.5) 28%, 
 		rgb(77,77,77) 20%,
 		rgba(255, 255, 255, 0.5) 48%);
 		-webkit-background-clip:text;
-		-webkit-text-fill-color: transparent;	
+		-webkit-text-fill-color: transparent;*/
+		color: #a4aab1;
 	}
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link.js-scroll-trigger.active {
 		/* box-shadow: inset 0px 0px 9px 6px rgba(77, 77, 77, 0.671); */
 		box-shadow: inset 0px 0px 7px 3px rgba(21, 21, 21, 0.671);
-		background-image: linear-gradient(rgb(238, 139, 103) 28%, 
+		/* background-image: linear-gradient(rgb(238, 139, 103) 28%, 
 		rgb(77,77,77) 20%,
-		rgb(238, 139, 103) 48%);		
+		rgb(238, 139, 103) 48%);*/
+		color: rgb(238, 139, 103);
 		transform: translateY(1.5px);
 		transition: 0.3s;
 	}
 	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-		background-color: #2196F3;
+		color: #2196F3;
 	}
 
 }
@@ -235,6 +242,26 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date {
 	min-width: none
+}
+
+#blog-card{
+	/* text-align: center; */
+	/* padding-top: 1.2rem; */
+	/* margin: 4rem; */
+	/* display: inline-block; */
+	/* width: 12rem; */
+	min-height: 7rem;
+	align-items: center;
+	padding-top: 1.5rem;
+}
+
+.card{
+	padding: 5px
+}
+
+.card .btn.btn-dark{
+	width: 2rem;
+	padding: 5px
 }
 
 @media (min-width:768px) {
@@ -255,9 +282,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-	background-color:rgba(5, 5, 5, 0)!important
+	background-color:rgb(43, 43, 43)!important
 }
-
 .text-primary {
 	color: #2196F3!important
 }
