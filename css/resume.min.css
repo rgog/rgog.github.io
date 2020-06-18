@@ -298,8 +298,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .card{
+	max-width: 30rem;
 	padding: 5px;
 	background-color: var(--card-bg);
+}
+
+.project-card-buttons{
+	max-width: 4.5rem;
+	display: flex;
+	justify-content: space-between;
 }
 
 .card .btn.btn-dark{
