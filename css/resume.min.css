@@ -287,7 +287,6 @@ section.resume-section .resume-item .resume-date {
 }
 
 #blog-card{
-	/* text-align: center; */
 	/* padding-top: 1.2rem; */
 	/* margin: 4rem; */
 	/* display: inline-block; */
@@ -300,6 +299,7 @@ section.resume-section .resume-item .resume-date {
 .card{
 	max-width: 30rem;
 	padding: 5px;
+	text-align: center;
 	background-color: var(--card-bg);
 }
 
